@@ -48,11 +48,11 @@ function TaskItem({ task }) {
         <div>
             {Completed ? 
             <div>
-                <h3>Completed Task: </h3> <button class='btn btn-danger' onClick={handleComplete}>Not Complete</button>
+                <h3>Completed Task: </h3> <button class='btn btn-danger' onClick={handleComplete}>Not Completed</button>
                 </div>
                  : 
                 <div>
-                    <h3>Not Completed Task: </h3><button class="btn btn-success" onClick={handleComplete}>Complete</button>
+                    <h3>Not Completed Task: </h3><button class="btn btn-success" onClick={handleComplete}>Completed</button>
                     </div>}
 
 
